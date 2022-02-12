@@ -1,0 +1,37 @@
+#gradienteFondo{
+    
+    height: 600px;
+    width: 100%;
+    background : linear-gradient(rgb(243, 208, 208), rgb(243, 148, 148), rgb(252, 129, 129), rgb(243, 148, 148),rgb(243, 188, 188));
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textoTitulo{
+    font-family: Cambria;
+    position: relative;
+   
+}
+img{
+    width:300px;
+    height: 400px
+    
+}
+h3{
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
